@@ -73,7 +73,6 @@ type AnalyticsOverview = {
 
 type AnalyticsOverviewResponse = {
   overview: AnalyticsOverview;
-  role_distribution: RoleDistributionItem[];
   conversation_activity_daily: TimelineItem[];
   conversation_activity_hourly: HourlyActivityItem[];
   message_activity_daily: TimelineItem[];
